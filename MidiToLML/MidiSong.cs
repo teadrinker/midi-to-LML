@@ -36,7 +36,6 @@ public class MidiSong
     }
     private void ConvertToSong(MidiFile midiFile)
     {
-        Log("g");
         for (var trackId = 0; trackId < midiFile.Tracks.Length; trackId++)
         {
             var track = midiFile.Tracks[trackId];
